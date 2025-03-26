@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'nytimes' => [
+        'api_key' => env('NYTIMES_API_KEY'),
+        'api_secret' => env('NYTIMES_API_SECRET'),
+        'base_url' => 'https://api.nytimes.com/svc/books/v3',
+    ]
+
 ];
